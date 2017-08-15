@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocPropTypes mimics the official React.PropTypes API 1`] = `
+Object {
+  "any": [Function],
+  "array": [Function],
+  "arrayOf": [Function],
+  "bool": [Function],
+  "custom": [Function],
+  "element": [Function],
+  "func": [Function],
+  "instanceOf": [Function],
+  "node": [Function],
+  "number": [Function],
+  "object": [Function],
+  "objectOf": [Function],
+  "oneOf": [Function],
+  "oneOfType": [Function],
+  "shape": [Function],
+  "string": [Function],
+  "symbol": [Function],
+}
+`;
+
+exports[`DocPropTypes returns prop identifiers from its property functions 1`] = `
+Object {
+  "any": Object {
+    "id": "ANY",
+  },
+  "array": Object {
+    "id": "ARRAY",
+  },
+  "arrayOf": [Function],
+  "bool": Object {
+    "id": "BOOL",
+  },
+  "custom": [Function],
+  "element": Object {
+    "id": "ELEMENT",
+  },
+  "func": Object {
+    "id": "FUNC",
+  },
+  "instanceOf": [Function],
+  "node": Object {
+    "id": "NODE",
+  },
+  "number": Object {
+    "id": "NUMBER",
+  },
+  "object": Object {
+    "id": "OBJECT",
+  },
+  "objectOf": [Function],
+  "oneOf": [Function],
+  "oneOfType": [Function],
+  "shape": [Function],
+  "string": Object {
+    "id": "STRING",
+  },
+  "symbol": Object {
+    "id": "SYMBOL",
+  },
+}
+`;

@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arrayOfPrimitive returns an object with info describing an array with members of one type 1`] = `
+Object {
+  "isRequired": false,
+  "memberType": Object {
+    "isRequired": false,
+    "type": "number",
+  },
+  "type": "arrayOf",
+}
+`;
+
+exports[`assignPropTypes assigns docPropTypes, propTypes, and propInfo to a component 1`] = `
+Object {
+  "age": [Function],
+  "name": [Function],
+  "pet": [Function],
+}
+`;
+
+exports[`assignPropTypes assigns docPropTypes, propTypes, and propInfo to a component 2`] = `
+Object {
+  "age": [Function],
+  "name": [Function],
+  "pet": [Function],
+}
+`;
+
+exports[`assignPropTypes assigns docPropTypes, propTypes, and propInfo to a component 3`] = `
+Object {
+  "age": Object {
+    "isRequired": true,
+    "type": "number",
+  },
+  "name": Object {
+    "isRequired": true,
+    "type": "string",
+  },
+  "pet": Object {
+    "isRequired": false,
+    "shape": Object {
+      "isGoodBoy": Object {
+        "isRequired": true,
+        "type": "bool",
+      },
+      "name": Object {
+        "isRequired": true,
+        "type": "string",
+      },
+    },
+    "type": "shape",
+  },
+}
+`;
+
+exports[`customPrimitive returns an object with info describing a custom proptype 1`] = `
+Object {
+  "customPropType": [Function],
+  "isRequired": false,
+  "type": "custom",
+}
+`;
+
+exports[`instanceOfPrimitive returns an object with info describing an instance of a class 1`] = `
+Object {
+  "instanceClass": [Function],
+  "isRequired": false,
+  "type": "instanceOf",
+}
+`;
+
+exports[`objectOfPrimitive returns an object with info describing an object with values of a given type 1`] = `
+Object {
+  "isRequired": false,
+  "type": "objectOf",
+  "valueType": Object {
+    "isRequired": false,
+    "type": "bool",
+  },
+}
+`;
+
+exports[`oneOfPrimitive returns an object with info describing an enum 1`] = `
+Object {
+  "enums": Array [
+    "One",
+    "Two",
+    "Three",
+  ],
+  "isRequired": false,
+  "type": "oneOf",
+}
+`;
+
+exports[`oneOfTypePrimitive returns an object with info describing a union type 1`] = `
+Object {
+  "isRequired": false,
+  "type": "oneOfType",
+  "types": Array [
+    Object {
+      "isRequired": false,
+      "type": "string",
+    },
+    Object {
+      "isRequired": true,
+      "type": "number",
+    },
+    Object {
+      "isRequired": false,
+      "type": "bool",
+    },
+  ],
+}
+`;
+
+exports[`optionalComplexType returns a complex prop with required set to false 1`] = `
+Object {
+  "propInfo": Object {
+    "isRequired": false,
+    "shape": Object {
+      "age": Object {
+        "isRequired": false,
+        "type": "number",
+      },
+      "name": Object {
+        "isRequired": false,
+        "type": "string",
+      },
+      "pet": Object {
+        "isRequired": false,
+        "shape": Object {
+          "isWellBehaved": Object {
+            "isRequired": false,
+            "type": "bool",
+          },
+        },
+        "type": "shape",
+      },
+    },
+    "type": "shape",
+  },
+  "propType": [Function],
+}
+`;
+
+exports[`optionalSimpleType returns an object with propInfo and propType properties 1`] = `
+Object {
+  "propInfo": Object {
+    "isRequired": false,
+    "type": "string",
+  },
+  "propType": [Function],
+}
+`;
+
+exports[`requiredComplexType returns a complex prop with required set to true 1`] = `
+Object {
+  "propInfo": Object {
+    "isRequired": true,
+    "shape": Object {
+      "age": Object {
+        "isRequired": false,
+        "type": "number",
+      },
+      "name": Object {
+        "isRequired": false,
+        "type": "string",
+      },
+      "pet": Object {
+        "isRequired": false,
+        "shape": Object {
+          "isWellBehaved": Object {
+            "isRequired": false,
+            "type": "bool",
+          },
+        },
+        "type": "shape",
+      },
+    },
+    "type": "shape",
+  },
+  "propType": [Function],
+}
+`;
+
+exports[`requiredSimpleType returns an object with required propInfo and propType properties 1`] = `
+Object {
+  "propInfo": Object {
+    "isRequired": true,
+    "type": "number",
+  },
+  "propType": [Function],
+}
+`;
+
+exports[`shapePrimitive returns an object with info describing an object 1`] = `
+Object {
+  "isRequired": false,
+  "shape": Object {
+    "age": Object {
+      "isRequired": false,
+      "type": "number",
+    },
+    "name": Object {
+      "isRequired": false,
+      "type": "string",
+    },
+    "pet": Object {
+      "isRequired": false,
+      "shape": Object {
+        "isWellBehaved": Object {
+          "isRequired": false,
+          "type": "bool",
+        },
+      },
+      "type": "shape",
+    },
+  },
+  "type": "shape",
+}
+`;

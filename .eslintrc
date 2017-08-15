@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "prettier",
+  ],
+  env: {
+    jest: true,
+    browser: true,
+    node: true,
+  },
+  "rules": {
+    "no-console": 2,
+    "no-const-assign": 2,
+    "no-dupe-keys": 2,
+    "no-redeclare": "error",
+    "no-undef": "error",
+    "no-unreachable": 2,
+    "no-unused-vars": ["error", { vars: "local", args: "after-used" }],
+    "no-var": 2,
+    "object-shorthand": [2, "properties"],
+    "prefer-arrow-callback": 2,
+    "prettier/prettier": ["error", { trailingComma: "all" }],
+  }
+}
